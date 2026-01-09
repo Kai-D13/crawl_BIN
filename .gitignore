@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Excel files (too large)
+*.xlsx
+!sample_data.xlsx
+
+# Checkpoint file (contains local progress)
+checkpoint.json
+
+# Backup files
+*_backup_*.xlsx
+
+# Screenshots
+*.png
+debug_*.png
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

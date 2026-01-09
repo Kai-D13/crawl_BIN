@@ -1,0 +1,18 @@
+{
+  "name": "whm-data-scraper",
+  "version": "1.0.0",
+  "description": "Hệ thống tự động fetch dữ liệu từ web internal và cập nhật Excel",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node main.js --test"
+  },
+  "keywords": ["puppeteer", "excel", "scraper", "automation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.6.1",
+    "exceljs": "^4.4.0",
+    "chalk": "^4.1.2"
+  }
+}
